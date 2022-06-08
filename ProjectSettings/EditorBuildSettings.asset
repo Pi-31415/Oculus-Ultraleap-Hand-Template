@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RiggedHands.unity
+    guid: 492b5513af0a42a4397d99f728d28687
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b1f3fac756f9d8649a1973ff5eabdc83, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ae94495d48e2b1b4b9018120e8eed23a, type: 2}
