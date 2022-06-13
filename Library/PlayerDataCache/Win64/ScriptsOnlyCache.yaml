@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - Serial
+    - UHI.Tracking.InteractionEngine.Examples.SimpleInteractionGlow
     Oculus.Platform.dll:
     - Oculus.Platform.PlatformSettings
     Oculus.Spatializer.dll:
@@ -12,10 +15,22 @@ ScriptsOnlyBuild:
     - OVRManager
     - OVRRuntimeSettings
     Ultraleap.Tracking.Core.dll:
+    - Leap.Unity.Animation.TransformTweenBehaviour
     - Leap.Unity.Comment
     - Leap.Unity.LeapXRServiceProvider
     Ultraleap.Tracking.Hands.dll:
     - Leap.Unity.HandsModule.HandBinder
+    Ultraleap.Tracking.InteractionEngine.dll:
+    - Leap.Unity.Examples.IgnoreCollisionsInChildren
+    - Leap.Unity.Interaction.DefaultXRNodeTrackingProvider
+    - Leap.Unity.Interaction.Examples.HideInteractionHandWhenControllerMoving
+    - Leap.Unity.Interaction.InteractionBehaviour
+    - Leap.Unity.Interaction.InteractionButton
+    - Leap.Unity.Interaction.InteractionHand
+    - Leap.Unity.Interaction.InteractionManager
+    - Leap.Unity.Interaction.InteractionSlider
+    - Leap.Unity.Interaction.InteractionXRController
+    - Leap.Unity.Interaction.SimpleFacingCameraCallbacks
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
     Unity.Rider.Editor.dll:
@@ -54,6 +69,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -65,26 +82,54 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 1968}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 2168}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 2210}
     - Class: 114
-      Script: {instanceID: 3114}
+      Script: {instanceID: 2222}
     - Class: 114
-      Script: {instanceID: 4240}
+      Script: {instanceID: 2594}
     - Class: 114
-      Script: {instanceID: 4890}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 5396}
+      Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 5942}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 6906}
+      Script: {instanceID: 4000}
     - Class: 114
-      Script: {instanceID: 7836}
+      Script: {instanceID: 4086}
+    - Class: 114
+      Script: {instanceID: 4508}
+    - Class: 114
+      Script: {instanceID: 4752}
+    - Class: 114
+      Script: {instanceID: 5054}
+    - Class: 114
+      Script: {instanceID: 6018}
+    - Class: 114
+      Script: {instanceID: 6094}
+    - Class: 114
+      Script: {instanceID: 6108}
+    - Class: 114
+      Script: {instanceID: 6310}
+    - Class: 114
+      Script: {instanceID: 6330}
+    - Class: 114
+      Script: {instanceID: 6416}
+    - Class: 114
+      Script: {instanceID: 6678}
+    - Class: 114
+      Script: {instanceID: 6704}
+    - Class: 114
+      Script: {instanceID: 6952}
+    - Class: 114
+      Script: {instanceID: 26824}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
@@ -3665,6 +3710,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Serial
   platform: 19
   scenePathNames:
   - Assets/Scenes/RiggedHands.unity
