@@ -26,7 +26,9 @@ git clone https://github.com/Pi-31415/Oculus-Ultraleap-Hand-Template.git
 
 Once cloning is done, you can open Unity Hub, click `Open -> Add Project from Disk` and select the cloned folder.
 
-Everything is configured. To begin using, please duplicate the `RiggedHands` Unity Scene and begin modifying to suit your needs.
+Everything is configured, and there is no need to import additional packages. To begin using, please duplicate the `RiggedHands` Unity Scene and begin modifying to suit your needs.
+
+Once you have designed the game, build it for Windows and open the application in Occulus Link Software, then connect the headset to the computer.
 
 ## Contact
 
